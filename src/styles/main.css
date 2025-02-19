@@ -1,0 +1,296 @@
+.main-container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header-nav {
+    position: fixed;  
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 16px 90px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    width: 978px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-seta-cor);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    left: 18%;
+}
+
+.search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+#search-input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.registro {
+    position: relative;
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-right: 32px;
+    left: 200px;
+    transition: 0.8s;
+}
+
+.entrar {
+  position: relative;
+  color: #a7a7a7;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  margin-right: 32px;
+  left: 200px;
+  transition: 0.8s;
+}
+
+.entrar:hover {
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  width: 100px;
+  height: 48px;
+}
+
+.registro:hover {
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  width: 100px;
+  height: 48px;
+}
+
+.main-sec {
+    position: fixed;
+    top: 100px;
+    color: white;
+    background-color: #121212;
+    max-width: 1000px;
+    height: 100vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2%;
+}
+
+.msg {
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    top: 20px;
+    left: 30px;
+}
+
+  .playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .playlist .session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+
+  .cont-rolavel {
+    max-height: 70vh;
+    margin: 24px;
+    overflow-y: auto;
+  }
+  
+  .cont-rolavel::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .cont-rolavel::-webkit-scrollbar-thumb {
+    display: none;
+  }
+  
+  .lista-plays {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+  
+    display: grid;
+    gap: 16px;
+    margin: 0 auto;
+  }
+  
+  .cards {
+    position: relative; 
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .cards span {
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .card1 {
+    background-color: rgb(0, 100, 80);
+  }
+  .card2 {
+    background-color: rgb(132, 0, 231);
+  }
+  .card3 {
+    background: rgb(30, 50, 100);
+  }
+  .card4 {
+    background: rgb(140, 25, 50);
+  }
+  .card5 {
+    background: rgb(232, 17, 91);
+  }
+  .card6 {
+    background: rgb(83, 122, 161);
+  }
+  .card7 {
+    background: rgb(142, 102, 172);
+  }
+  .card8 {
+    background: rgb(20, 138, 8);
+  }
+  .card9 {
+    background: rgb(30, 50, 100);
+  }
+  .card10 {
+    background: rgb(233, 20, 41);
+  }
+  .card11 {
+    background: rgb(80, 55, 80);
+  }
+  .card12 {
+    background: rgb(216, 64, 0);
+  }
+  .card13 {
+    background: rgb(186, 93, 7);
+  }
+  .card14 {
+    background: rgb(0, 30, 80);
+  }
+  .card15 {
+    background: rgb(60, 30, 80);
+  }
+  
+  .lista-plays img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+  }
+
+  @media (max-width: 768px) {
+    .main-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-top: 220px;
+    }
+
+    .search {
+        margin-left: 10px;
+        gap: 100px;
+    }
+
+    .lista-plays {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .entrar, .registro {
+        left: 0;
+        margin: 8px 0;
+    }
+
+    .secoes {
+        margin-top: 10px;
+    }
+
+    .main-sec {
+        margin-top: 280px;
+    }
+}
